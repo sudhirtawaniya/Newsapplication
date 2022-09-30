@@ -1,0 +1,44 @@
+.container{
+    background-color:black;
+  display: flex;
+  width: 100%;
+ min-height:40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+}
+.main{
+    width: 100%;
+    min-height:40px;
+    background-color: black;
+    margin: 1px 0;
+    
+    display: flex;
+    position:sticky;
+    z-index: 1;
+}
+
+.heading{
+    margin: 0;
+    padding: 0;
+    margin-left:1%;
+    color:aliceblue;
+  
+
+  
+    width: fit-content;
+}
+.list{
+    color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin-left: 2%;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+ol:hover{
+    border-bottom: 1px solid blue;
+}

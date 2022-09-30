@@ -1,0 +1,54 @@
+.mainsc_container{
+    width:100%;
+    /* padding: 2px; */
+   max-height:30rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+.text{ 
+   position: absolute;
+    top:60%;
+    font-size: 200%;
+    font-weight: 600;
+    color: white;
+    left:2%;
+    margin: 0 10px;
+}
+
+.msi{
+    width:100%;
+ 
+    margin: 0px;
+   display: inline;
+    /* border: 10px solid red; */
+}
+.story{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.topic{
+    width:20%;
+    height: fit-content;
+  min-width: 280px;
+  flex-wrap: wrap;
+
+    text-overflow: ellipsis;
+    margin:30px;
+    overflow:hidden;
+    box-shadow: 2px 2px 34px 0.01px gray;
+    transition: all 1s;
+   
+}
+.topic:hover,.topic:focus{
+    transform: scale(1.1);
+} 
+.stt{
+    padding: 2%;
+    height:4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-overflow: ellipsis;
+}
